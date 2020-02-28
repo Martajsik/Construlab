@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;   
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto',sans-serif;
+}
+h1{
+    color:#247900;
+}
+h2,h3{
+    margin-top:30px;
+    color:#247900;
+}
+main{
+    position: relative;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+.cabecalho{
+    width: 100%;
+    height: 200px;
+    background-color: #aaff86;
+    background-size: cover;
+    text-align: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.frase_logo{
+    font-size: 2.5em;
+    bottom: 120px;
+}
+
+.fa-check-square{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #559b37;
+}
+
+.fa-facebook-square{
+    color: #1774eb;
+}
+.insta{
+    background: -webkit-linear-gradient(#f5bb57, #e77135,#d32f72,#9136be);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.aviso{
+    width: 400px;
+    height:400px;
+    margin-bottom: 40px;
+}
+.sec1 p{
+    text-align: left;
+}
+.sections{
+    border-top:1px solid #aaff86;
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between;
+    font-size:1.2em;
+}
+.sections section{
+    width: 48%;
+}
+/*====ELAS CONSTROEM=====*/
+.div_elas{
+    border-top: 1px solid #aaff86;
+}
+.elasConstroem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.elasConstroem img{
+    width: 400px;
+    height: 700px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+video{
+    width: 300px;
+    height:700px;
+}
+
+main p{
+
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+aside{
+    width: 88%;
+    margin-top: 40px;
+    position: relative;
+    border-top:1px solid #aaff86;;
+    margin-bottom: 50px;
+    margin-top:40px;
+    margin: auto;
+}
+aside p{
+    left: 0;
+}
+
+
+iframe{
+    width:400px;
+    height:300px;
+    border:0; 
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+
+.img_qr{
+    width: 50px;
+    height: 50px;
+}
+
+footer i{
+    font-size: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+footer .contatos{
+    font-size: 2.5em;
+}
+
+
+
+.contatos2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.contato1{
+    margin-right: 25%;
+}
+.contato2{
+    margin-right: 20%;
+}
+.sec_b{
+    position: relative;
+}
+
+@media(max-width:800px){
+    .projeto{
+        text-align: center;
+    }
+    .sections{
+        display: inline-block;
+    }
+    .sections section{
+        width: 100%;
+    }
+
+    .frase_logo{
+        margin-left: 20%;
+        font-size: 1.8em;
+        bottom: 120px;
+    }
+    .p_qr{
+        margin-top: 20px;
+    }
+    .contato1{
+        margin-right: 5%;
+    }
+    .contato2{
+        margin-right: 5%;
+    }
+    .fa-check-square{
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    .elasConstroem img{
+        margin-right: 0px;
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media(max-width:560px){
+    
+    main{
+        overflow-x: hidden;
+    }
+    header{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        width:100%;
+        text-align: center;
+        height: 150px;
+    }
+    .logo{  
+        height: 100px;
+        width: 100px;
+        margin:auto;
+    }
+    .frase_logo{
+        position: relative;
+        bottom: 20px;
+        margin-left: 0;
+        font-size: 1.2em;
+    }
+    h1,h2{
+        margin-top: 20px;
+        font-size: 1.9em;
+    }
+    .sections section{
+        font-size: 12pt;
+    }
+
+    .contato1{
+        margin-right: 0%;
+    }
+    .contato2{
+        margin-right: 0%;
+    }
+    .aviso{
+        width: 250px;
+        height:250px;
+        margin-bottom: 40px;
+    }
+
+}
